@@ -1,4 +1,4 @@
-const SERVER_URL = 'https://www.jsonstore.io/df5d931f3d12b166bdd9acc7b21c5346be91e20f272bd41857a8b7edb0897e21'
+const SERVER_URL = 'https://www.jsonstore.io/5a2501bf023f395aa28b78a2984e898a4b6fb837cb80638ffcfc0568c03632bb'; // use own  link fron jsonstore.io
 
 class TodoItem extends React.Component {
 	render() {
@@ -36,7 +36,7 @@ class Login extends React.Component {
 			<div className="loginScreen">
 				<h2 className="loginLabel">Enter user name</h2>
 				<div className="loginControls">
-					<input type="text" id="username" placeholder="Avi" />
+					<input type="text" id="username" placeholder="Sveta" />
 					<svg className="feather right-arrow login-button" aria-label="Login" role="button"
 						onClick={() => this.props.login(document.getElementById('username').value)}>
 						<use xlinkHref="/img/feather-sprite.svg#arrow-right-circle" />
